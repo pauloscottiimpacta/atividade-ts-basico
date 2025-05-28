@@ -9,6 +9,7 @@ A entrega pode ser feita via github (novo repositório / fork) ou via zip file (
 
 DICA: configure a classe Retangulo, conforme abaixo:
 
+<pre>
 class Retangulo {
   constructor(private largura: number, private altura: number) {}
 
@@ -20,3 +21,4 @@ class Retangulo {
     return 2 * (this.largura + this.altura);
   }
 };
+</pre>
